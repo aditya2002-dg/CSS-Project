@@ -1,0 +1,152 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #eee;
+}
+#container{
+    width: 980px;
+    margin: 0 auto;
+    background: #fff;
+}
+#main-navigation{
+    background: #181818;
+    padding: 10px;
+}
+#main-navigation ul{
+    text-align: right;
+    list-style-type: none;
+    margin-right: 10px;
+    
+}
+#main-navigation li{
+    display: inline-block;
+    margin-left: 20px;
+}
+#main-navigation a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 6px;
+}
+#main-navigation a.front{
+    background: #8f746c;
+    border-radius: 4px;
+}
+#banner{
+    text-align: center;
+}
+#middle-content{
+    text-align: center;
+    margin: 30px 0;
+}
+#middle-content1{
+    text-align: center;
+    margin: 30px 0;
+}
+#middle-content1 span.bike-price{
+    font-size: 28px;
+    display: block;
+}
+#middle-content span.scooter-price{
+    font-size: 28px;
+    display: block;
+}
+#middle-content a.add-to-bag{
+    display: block;
+    color: #8f746c;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 10px 0px;
+    border: 3px solid #8f746c;
+    width: 210px;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+#middle-content1 a.add-to-bag{
+    display: block;
+    color: #8f746c;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 10px 0px;
+    border: 3px solid #8f746c;
+    width: 210px;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+#middle-content a.add-to-bag:hover{
+    background: #8f746c;
+    color: #fff;
+    box-shadow: 2px 2px 2px #8f746c;
+}
+#middle-content1 a.add-to-bag:hover{
+    background: #8f746c;
+    color: #fff;
+    box-shadow: 2px 2px 2px #8f746c;
+} 
+#footer span.made{
+    font-weight: bold;
+    color: #8f746c;
+}
+/* Media */
+@media screen and (max-width: 786px){
+    #container{
+        width: 786px;
+    }
+    #main-navigation ul{
+        text-align:center;
+        margin: 8px auto;
+        padding: 0;
+    }
+    #main-navigation li{
+        margin-left: 10px;
+    }
+    #main-navigation a{
+        padding: 4px;
+    }
+}
+@media screen and (max-width: 442px){
+    #container{
+        width: 442px;
+        padding: 0;
+    }
+    .bike-nav
+    {
+        display: block;
+        height: 50px;
+        width: 100%;
+        background: url('6.png') no-repeat center;
+        cursor: pointer;
+    }
+    #main-navigation ul{
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+        background: #505050;
+        text-align: left;
+        height: 0;
+    }
+    #main-navigation ul.open{
+        height: auto;
+    }
+    #main-navigation li{
+        display: block;
+        padding: 3px;
+    }
+    #main-navigation{
+        background: #fff;
+        padding: 0;
+        margin: 0;
+    }
+    #main-navigation a{
+        color: #fff;
+        padding: 0;
+        border-bottom: 1px solid #404040;
+    }
+    #main-navigation a.front{
+        background: none;
+    }
+}
